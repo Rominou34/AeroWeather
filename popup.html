@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+  	<script type="text/javascript" src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1 id="main-title">METAR Report</h1>
+    <div class="report-container" >
+      <h2>Raw report</h2>
+      <p id="text-report">
+      </p>
+    </div>
+    <div id="detailed-report" class="report-container" style="display: block">
+      <h2>Detailed report</h2>
+      <p id="detailed-date"></p>
+      <div class="infos-container">
+        <div>
+          <p>Temperature</p>
+          <p id="detailed-temp"></p>
+        </div>
+        <div>
+          <p>Dew point</p>
+          <p id="detailed-dew"></p>
+        </div>
+        <div>
+          <p id="detailed-wind-dir"></p>
+          <p id="detailed-wind-speed"></p>
+          <p id="detailed-wind-gust"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
